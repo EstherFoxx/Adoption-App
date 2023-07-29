@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Action for Singapore Dogs",
+        "category": "Rivers",
+        "city": "Twentynine Palms",
+        "state": "Singapore",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Joshua Tree National Park",
+        "coordinates": {
+            "longitude": 103.71634,
+            "latitude": 1.42305
+        },
+        "description": "Action for Singapore Dogs (ASD) is a registered Charity and was established in December 2000 as a non-profit organization with the mission to improve the welfare of stray and abandoned dogs in Singapore with a strict no-kill policy. We aim to fulfill our mission through various activities and programs including rescuing, fostering and re-homing of stray and abandoned dogs, advocating sterilization to control the stray population, responsible pet ownership and highlighting the virtues of our local dogs, the Singapore Specials.",
+        "imageName": "ASD"
+    },
+    
+    {
+        "name": "Mdm Wong's Shelter and Friends",
+        "category": "Lakes",
+        "city": "Port Alsworth",
+        "state": "Alaska",
+        "id": 1002,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "Lake Clark National Park and Preserve",
+        "coordinates": {
+            "longitude": 103.725561,
+            "latitude": 1.38144
+        },
+        "description": "sth abt Mdm Wong's Shelter and Friends",
+        "imageName": "Mdm Wong's Shelter and Friends"
+    },
+    {
+        "name": "Mercylight",
+        "category": "Mountains",
+        "city": "Skagway",
+        "state": "Alaska",
+        "id": 1003,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Klondike Gold Rush National Historical Park",
+        "coordinates": {
+            "longitude": 103.72444,
+            "latitude": 1.38248
+        },
+        "description": "We are a group of animal lovers who have a strong desire to care for the animals, by helping them to find the right homes. We started in 2009 as a handful of volunteers who fed stray dogs every evening in the eastern side of Singapore. Mercylight was incorporated in January 2015 as a non-profit organization with the aim to promote compassion for animals through the provision of animal welfare services and prevention of cruelty to animals. In May 2020, we were conferred the charity status and is now known as Mercylight Animal Rescue And Sanctuary Limited. To date we have over 100 committed people volunteering as kennel volunteers, stray feeders, packers, fosterers and sponsors. Animal rescue work is obviously not an easy task. There are about 7,000 stray dogs out there suffering from hunger, thirst, harsh weather conditions and unkind treatment. We are part of the nationwide initiative launched in November 2018, known as the Trap-Neuter-Release-Manage (TNRM) programme with the aim of sterilising more than 70 per cent of the stray dog population over five years. According to AVA, approximately 15,000 to 20,000 cats and dogs are put down yearly in Singapore because the shelters are full and there is no place to house the impounded animals. Choose to adopt a dog and you save two lives.",
+        "imageName": "mercylight"
+    },
+    {
+        "name": "Metta Cats & Dogs Sanctuary",
+        "category": "Lakes",
+        "city": "Browning",
+        "state": "Montana",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Glacier National Park",
+        "coordinates": {
+            "longitude": 103.72455,
+            "latitude": 1.38261
+        },
+        "description": "Welcome to Metta Cats and Dogs Sanctuary (MCDS), home to more than 60 rescued street cats and 20 dogs. Since our establishment in the 90s, we have rehabilitated hundreds of abused and abandoned animals, and we now provide a safe, warm and loving home for those who are waiting for their turn.",
+        "imageName": "Metta Cats & Dogs Sanctuary"
+    },
+    {
+        "name": "Dog Shlter Volunteer & Donation Singapore",
+        "category": "Lakes",
+        "city": "Twin Lakes",
+        "state": "Alaska",
+        "id": 1005,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "Lake Clark National Park and Preserve",
+        "coordinates": {
+            "longitude": 103.72465,
+            "latitude": 1.38201
+        },
+        "description": "SOSD is committed to the welfare of Singapore’s many street dogs. We vehemently oppose the culling of stray animals and believe that there is a more humane way to manage this problem. Our dog shelter exists to rescue, rehabilitate and rehome strays to give them a second chance at life. If you’re an animal lover with a great passion for our canine friends, there are plenty of ways you can participate and help give these beautiful creatures a chance to find their forever home. Whether you want to adopt a dog, be a dog shelter volunteer, donate to our pet shelter, become a sponsor or even a foster parent while our dogs await their forever homes, there are plenty of ways to show you care.",
+        "imageName": "SoSD"
+    }
+    ]
