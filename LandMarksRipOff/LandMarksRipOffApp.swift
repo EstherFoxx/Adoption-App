@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct LandMarksRipOffApp: App {
-    @StateObject private var modelData = ModelData() 
-    
+    @StateObject private var modelData = ModelData()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }

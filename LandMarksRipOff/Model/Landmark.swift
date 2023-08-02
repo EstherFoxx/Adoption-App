@@ -16,7 +16,19 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var description: String
     var isFavorite: Bool
+    var isFeatured: Bool
+    //define the var types
+    //matching names of some of the keys in the json file
+    // in a json file, the keys are enclosed in double quotes, key n value seperated by a colon symbol
+    // two key-valye pairs seperated by a comma
 
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case catndog = "Dogs and Cats"
+        case cats = "Cats"
+        case dogs = "Dogs"
+        }
+    
     private var imageName: String
     var image: Image {
         Image(imageName)

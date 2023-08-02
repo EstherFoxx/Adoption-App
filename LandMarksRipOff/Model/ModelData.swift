@@ -11,6 +11,20 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData copy.json")
+    // an array of landmarks from json file
+    
+    var features: [Landmark] {
+            landmarks.filter { $0.isFeatured }
+        }
+    //contain only landmarks that is featured to be true
+
+    
+    var categories: [String: [Landmark]] {
+            Dictionary(
+                grouping: landmarks,
+                by: { $0.category.rawValue }
+            )
+        }
 }
 
 
