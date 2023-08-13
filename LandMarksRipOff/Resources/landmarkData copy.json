@@ -1,0 +1,274 @@
+[
+    {
+        "name": "Action for Singapore Dogs",
+        "category": "Dogs",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "https://www.asdsingapore.com/dogs-for-adoption",
+        "coordinates": {
+            "longitude": 103.71634,
+            "latitude": 1.42305
+        },
+        "description": "Action for Singapore Dogs (ASD) is a registered Charity and was established in December 2000 as a non-profit organization with the mission to improve the welfare of stray and abandoned dogs in Singapore with a strict no-kill policy. We aim to fulfill our mission through various activities and programs including rescuing, fostering and re-homing of stray and abandoned dogs, advocating sterilization to control the stray population, responsible pet ownership and highlighting the virtues of our local dogs, the Singapore Specials.",
+        "imageName": "ASD"
+    },
+    {
+        "name": "Mdm Wong's Shelter and Friends",
+        "category": "Dogs",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1002,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.facebook.com/Mdmwongsshelterandfriends/",
+        "coordinates": {
+            "longitude": 103.725561,
+            "latitude": 1.38144
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "Mdm Wong's Shelter and Friends"
+    },
+    {
+        "name": "Mercylight",
+        "category": "Dogs and Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1003,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "https://mercylight.wixsite.com/mercylight/adopt-a-dog",
+        "coordinates": {
+            "longitude": 103.72444,
+            "latitude": 1.38248
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "mercylight"
+    },
+    {
+        "name": "Metta Cats & Dogs Sanctuary",
+        "category": "Dogs and Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "https://www.mettacatsdogs.com/our-cats",
+        "coordinates": {
+            "longitude": 103.72455,
+            "latitude": 1.38261
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "Metta Cats & Dogs Sanctuary"
+    },
+    {
+        "name": "Save Our Street Dogs",
+        "category": "Dogs",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1005,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://sosd.org.sg/adopt-a-dog/",
+        "coordinates": {
+            "longitude": 103.72465,
+            "latitude": 1.38201
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "SoSD"
+    },
+    {
+        "name": "Kitten Sanctuary Singapore",
+        "category": "Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1006,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.kittensanctuarysg.org/our-purrsonalities",
+        "coordinates": {
+            "longitude": 103.85898387316558,
+            "latitude": 1.3032871614064994
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "kitSan"
+    },
+    {
+        "name": "Cat Paradise Sg",
+        "category": "Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.catparadisesg.com/ourcats",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "CatPar"
+    },
+    {
+        "name": "Hamster Society Singapore",
+        "category": "Hamsters",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1008,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.hamstersociety.sg/adoptiongallery",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "hamSoc"
+    },
+    {
+        "name": "Animal Lovers League",
+        "category": "Dogs and Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1009,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.animalloversleague.com/adopt",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "ALL"
+    },
+    {
+        "name": "Causes for Animals Singapore",
+        "category": "Dogs",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1010,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.causesforanimals.com/dogs-for-adoption.html",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "CAS"
+    },{
+        "name": "Chained Dog Awareness Singapore",
+        "category": "Dogs",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1011,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://chaineddogawareness.sg/adoption/",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "CDA"
+    },
+    {
+        "name": "Hope Dog Rescue",
+        "category": "Dogs",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1012,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "http://hopedogrescue.blogspot.com/p/adoption.html",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "Hope"
+    },
+    {
+        "name": "Mutts & Mittens",
+        "category": "Dogs and Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1013,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.muttsnmittens.com/adoption/",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "MuMi"
+    },
+    {
+        "name": "Oasis Second Chance Animal Shelter",
+        "category": "Dogs",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1014,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.oscas.sg/adoption-gallery",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "OSCAS"
+    },
+    {
+        "name": "Purely Adoptions",
+        "category": "Dogs and Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1015,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.purelyadoptions.com/adoptdog",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "PuAd"
+    },
+    {
+        "name": "Society for the Prevention of Cruelty to Animals",
+        "category": "Dogs and Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1016,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://spca.org.sg/services/adoption/",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "SPCA"
+    },{
+        "name": "Voices for Animals",
+        "category": "Dogs and Cats",
+        "city": "Singapore",
+        "state": "Singapore",
+        "id": 1017,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "https://www.facebook.com/VFASIN/",
+        "coordinates": {
+            "longitude": 103.8549349728695,
+            "latitude": 1.3074011279348838
+        },
+        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "imageName": "VFA"
+    }
+    ]
+
+
