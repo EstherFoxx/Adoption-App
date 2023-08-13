@@ -6,10 +6,13 @@
 // the page opened after clicking on individual row of adoption centre
 
 import SwiftUI
+import SafariServices
 
 struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
     //to support the button, which needs access to the environ's model data for comparison
+    @State private var showSafari: Bool = false
+    //toggle to show the webpage in safari, on top of our view
     
     var landmark: Landmark //import the file to read values
     //changed text to be dynamic, reading values from jison file
@@ -40,7 +43,6 @@ struct LandmarkDetail: View {
                 }
 
                 HStack {
-                    Text(landmark.park)
                     Spacer()
                     Text(landmark.state)
                 }
@@ -52,6 +54,14 @@ struct LandmarkDetail: View {
                 Text("About \(landmark.name)")
                     .font(.title2)
                 Text(landmark.description)
+                Text("Check out the available animals here")
+                    .foregroundColor(.blue)
+                    .onTapGesture{
+                        showSafari.toggle()
+                    }
+                            .fullScreenCover(isPresented: $showSafari, content: {
+                                SFSafariViewWrapper(url: URL(string: landmark.park)!)
+                        })
             }
             .padding()
         }

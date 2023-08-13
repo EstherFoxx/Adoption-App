@@ -27,6 +27,7 @@ struct Landmark: Hashable, Codable, Identifiable {
         case catndog = "Dogs and Cats"
         case cats = "Cats"
         case dogs = "Dogs"
+        case hamster = "Hamsters"
         }
     
     private var imageName: String
