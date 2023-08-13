@@ -60,7 +60,7 @@ struct LandmarkDetail: View {
                         showSafari.toggle()
                     }
                             .fullScreenCover(isPresented: $showSafari, content: {
-                                SFSafariViewWrapper(url: URL(string: landmark.park)!)
+                                SFSafariViewWrapper(url: URL(string: landmark.ad_url)!)
                         })
             }
             .padding()
