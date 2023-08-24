@@ -14,6 +14,8 @@ struct LandmarkDetail: View {
     @State private var showSafari: Bool = false
     //toggle to show the webpage in safari, on top of our view
     
+    @Environment(\.openURL) private var openURL
+    
     var landmark: Landmark //import the file to read values
     //changed text to be dynamic, reading values from jison file
 
@@ -37,10 +39,25 @@ struct LandmarkDetail: View {
                     Text(landmark.name)
                         .font(.title)
                     FavouriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
-//landmarkIndex: with the modelData object to ensure that the button updates the isFavorite property of the landmark stored in the model object
-//Embed the landmark’s name in an HStack with a new FavoriteButton
-//provide a binding to the isFavorite property with the dollar sign ($)
-                }
+                    //landmarkIndex: with the modelData object to ensure that the button updates the isFavorite property of the landmark stored in the model object
+                    //Embed the landmark’s name in an HStack with a new FavoriteButton
+                    //provide a binding to the isFavorite property with the dollar sign ($)
+                    Spacer()
+                    VStack{
+                        Image("direction")
+                            .resizable()
+                            .frame(width: 40, height: 40)
+                            .foregroundColor(.white)
+                            .cornerRadius(40)
+                            .onTapGesture{
+                                showSafari.toggle()
+                            }
+                            .fullScreenCover(isPresented: $showSafari, content: {
+                                SFSafariViewWrapper(url: URL(string: landmark.di_url)!)
+                            })
+                        Text("Directions")
+
+                    }}
 
                 HStack {
                     Spacer()
@@ -54,14 +71,53 @@ struct LandmarkDetail: View {
                 Text("About \(landmark.name)")
                     .font(.title2)
                 Text(landmark.description)
-                Text("Check out the available animals here")
-                    .foregroundColor(.blue)
-                    .onTapGesture{
-                        showSafari.toggle()
-                    }
-                            .fullScreenCover(isPresented: $showSafari, content: {
-                                SFSafariViewWrapper(url: URL(string: landmark.ad_url)!)
+                
+                Button {
+                    if let url = URL(string: landmark.ad_url) {
+                                openURL(url)
+                            }
+                        } label: {
+                            Label("View animals for Adoption", systemImage: "paperplane")
+                        }
+                        .padding()
+                        .background(Color(red: 255, green: 0, blue: 0))
+                        .foregroundStyle(.white)
+                        .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+                Button {
+                    if let url = URL(string: landmark.vo_url) {
+                                openURL(url)
+                            }
+                        } label: {
+                            Label("Be a Volunteer", systemImage: "hand.raised.fingers.spread.fill")
+                        }
+                        .padding()
+                        .background(Color(red: 255, green: 0, blue: 0))
+                        .foregroundStyle(.white)
+                        .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+                Button {
+                    if let url = URL(string: landmark.vo_url) {
+                                openURL(url)
+                            }
+                        }
+            label: {
+                            Label("Make a Donation", systemImage: "heart.fill")
+                        }
+            .padding()
+            .background(Color(red: 255, green: 0, blue: 0))
+            .foregroundStyle(.white)
+            .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+                
+                        .onTapGesture{
+                            showSafari.toggle()
+                        }
+                        .fullScreenCover(isPresented: $showSafari, content: {
+                            SFSafariViewWrapper(url: URL(string: landmark.ad_url)!)
+                                
                         })
+                                
+                
+                
+                
             }
             .padding()
         }
@@ -78,3 +134,13 @@ struct LandmarkDetail_Previews: PreviewProvider {
             .environmentObject(modelData)
     }
 }
+
+
+
+
+
+
+
+
+
+

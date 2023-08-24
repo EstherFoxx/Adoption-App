@@ -12,10 +12,22 @@ struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
 
+    struct Place: Identifiable {
+            let id = UUID()
+            let name: String
+            let coordinate: CLLocationCoordinate2D
+        }
+        @State var annotations: [Place] = [] //<-
+    
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region,annotationItems: annotations){
+            MapPin(coordinate: $0.coordinate)
+        }
             .onAppear {
                 setRegion(coordinate)
+                //↓
+                annotations = [
+                    Place(name:"xyz",coordinate: CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude))]
             }
     }
 

@@ -8,6 +8,9 @@
         "isFeatured": true,
         "isFavorite": true,
         "ad_url": "https://www.asdsingapore.com/dogs-for-adoption",
+        "vo_url":"https://www.asdsingapore.com/volunteer",
+        "do_url":"https://www.asdsingapore.com/donate",
+        "di_url":"https://www.google.com/maps/dir//80+Lim+Chu+Kang+Lane+1,+Action+For+Singapore+Dogs,+Singapore+718911/@1.4230421,103.713779,17z/data=!4m17!1m7!3m6!1s0x31da0d928403c435:0x993e61784ded24a8!2sAction+For+Singapore+Dogs!8m2!3d1.4230421!4d103.7163539!16s%2Fg%2F11b6d7dz7s!4m8!1m0!1m5!1m1!1s0x31da0d928403c435:0x993e61784ded24a8!2m2!1d103.7163434!2d1.423046!3e3?entry=ttu",
         "coordinates": {
             "longitude": 103.71634,
             "latitude": 1.42305
@@ -24,6 +27,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.facebook.com/Mdmwongsshelterandfriends/",
+        "vo_url":"https://www.facebook.com/Mdmwongsshelterandfriends/photos/a.158726717525343/3185704084827576/?type=3",
+        "do_url":"https://www.facebook.com/Mdmwongsshelterandfriends/posts/update-we-have-received-a-good-amount-of-rice-thank-you-for-your-kind-response-d/1564209730310361/",
+        "di_url":"https://www.google.com/maps/dir//59+Sungei+Tengah+Rd,+%2301-48+Madam+Wong's+Shelter+and+Friends,+Blk+U,+Singapore+699014/@1.3812996,103.723007,17z/data=!4m17!1m7!3m6!1s0x31da11f73adf6cc9:0x9fe3a2f118514be!2sMadam+Wong's+Shelter+and+Friends!8m2!3d1.3812996!4d103.7255819!16s%2Fg%2F11j7vfywp8!4m8!1m0!1m5!1m1!1s0x31da11f73adf6cc9:0x9fe3a2f118514be!2m2!1d103.7255819!2d1.3812996!3e3?entry=ttu",
         "coordinates": {
             "longitude": 103.725561,
             "latitude": 1.38144
@@ -40,6 +46,9 @@
         "isFeatured": true,
         "isFavorite": true,
         "ad_url": "https://mercylight.wixsite.com/mercylight/adopt-a-dog",
+        "vo_url":"https://mercylight.wixsite.com/mercylight/kennel-volunteer",
+        "do_url":"https://mercylight.org.sg/get-involved/sponsor/",
+        "di_url":"https://www.google.com/maps/dir//59+Sungei+Tengah+Rd,+%2302-43+Mercylight,+Blk+T,+Singapore+699014/@1.3822465,103.7218654,17z/data=!4m17!1m7!3m6!1s0x31da0f90c8a5ab1d:0xbccb90e2524ad15a!2sMercylight!8m2!3d1.3822465!4d103.7244403!16s%2Fg%2F11gjhbpgk3!4m8!1m0!1m5!1m1!1s0x31da0f90c8a5ab1d:0xbccb90e2524ad15a!2m2!1d103.7244745!2d1.3822896!3e3?entry=ttu",
         "coordinates": {
             "longitude": 103.72444,
             "latitude": 1.38248
@@ -56,9 +65,12 @@
         "isFeatured": true,
         "isFavorite": true,
         "ad_url": "https://www.mettacatsdogs.com/our-cats",
+        "vo_url":"https://www.mettacatsdogs.com/volunteer",
+        "do_url":"https://www.mettacatsdogs.com/donate",
+        "di_url":"https://www.google.com/maps/dir//59+Sungei+Tengah+Rd,+Mettacats+%26+Dogs+Sanctuary,+Block+U,+Singapore+699014/@1.3822466,103.7218654,17z/data=!4m17!1m7!3m6!1s0x31da0d76ff35971f:0x664d5939d50abb12!2sMettacats+%26+Dogs+Sanctuary!8m2!3d1.3822466!4d103.7244403!16s%2Fg%2F11jp27r456!4m8!1m0!1m5!1m1!1s0x31da0d76ff35971f:0x664d5939d50abb12!2m2!1d103.7244744!2d1.3822896!3e3?entry=ttu",
         "coordinates": {
-            "longitude": 103.72455,
-            "latitude": 1.38261
+            "longitude": 103.72447248651412,
+            "latitude": 1.3825522828214794,
         },
         "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
         "imageName": "Metta Cats & Dogs Sanctuary"
@@ -72,6 +84,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://sosd.org.sg/adopt-a-dog/",
+        "vo_url":"https://sosd.org.sg/join-us/volunteers-sign-up/",
+        "do_url":"https://sosd.org.sg/donation/",
+        "di_url":"https://www.google.com/maps/dir//SOSD+Singapore,+59+Sungei+Tengah+Rd,+%2301-42,+Singapore+699014/@1.3818306,103.7246303,13z/data=!3m2!4b1!5s0x31da0e21a48f8931:0xf26110c621e90a7b!4m9!4m8!1m0!1m5!1m1!1s0x31da3ded02847c75:0x45071a06cf37ae1f!2m2!1d103.7246303!2d1.3818306!3e3?entry=ttu",
         "coordinates": {
             "longitude": 103.72465,
             "latitude": 1.38201
@@ -88,6 +103,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.kittensanctuarysg.org/our-purrsonalities",
+        "vo_url":"https://www.kittensanctuarysg.org/volunteer",
+        "do_url":"https://www.kittensanctuarysg.org/donate",
+        "di_url":"https://www.google.com/maps/dir//737A+North+Bridge+Rd,+Kitten+Sanctuary+Singapore,+Singapore+198705/@1.3030516,103.858966,17z/data=!3m1!5s0x31da19b72b78bd17:0x2734dc1ce0327f35!4m17!1m7!3m6!1s0x31da1931cc4755cf:0xe497a71ae28ba672!2sKitten+Sanctuary+Singapore!8m2!3d1.3030516!4d103.858966!16s%2Fg%2F11fpkvfm4y!4m8!1m0!1m5!1m1!1s0x31da1931cc4755cf:0xe497a71ae28ba672!2m2!1d103.858966!2d1.3030516!3e3?entry=ttu",
         "coordinates": {
             "longitude": 103.85898387316558,
             "latitude": 1.3032871614064994
@@ -104,6 +122,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.catparadisesg.com/ourcats",
+        "vo_url":"https://www.catparadisesg.com/supportus",
+        "do_url":"https://www.catparadisesg.com/supportus",
+        "di_url":"https://www.google.com/maps/dir//Cat+Paradise+Sg+-+Adoption+Cat+Cafe+Singapore,+23+Upper+Weld+Rd,+%2302-01,+Singapore+207380/@1.3056779,103.8545761,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x31da199ffdb9636d:0xf5ad6018d41d5d2b!2m2!1d103.8545761!2d1.3056779!3e3?entry=ttu",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -120,6 +141,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.hamstersociety.sg/adoptiongallery",
+        "vo_url":"https://www.hamstersociety.sg/join-us",
+        "do_url":"https://www.hamstersociety.sg/donatenow",
+        "di_url":"https://www.hamstersociety.sg/faq",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -136,6 +160,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.animalloversleague.com/adopt",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -152,6 +179,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.causesforanimals.com/dogs-for-adoption.html",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -167,6 +197,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://chaineddogawareness.sg/adoption/",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -183,6 +216,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "http://hopedogrescue.blogspot.com/p/adoption.html",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -199,6 +235,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.muttsnmittens.com/adoption/",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -215,6 +254,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.oscas.sg/adoption-gallery",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -231,6 +273,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.purelyadoptions.com/adoptdog",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -247,6 +292,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://spca.org.sg/services/adoption/",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
@@ -262,6 +310,9 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.facebook.com/VFASIN/",
+        "vo_url":"",
+        "do_url":"",
+        "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838

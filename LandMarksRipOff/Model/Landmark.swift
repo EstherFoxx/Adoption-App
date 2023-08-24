@@ -13,6 +13,9 @@ struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var ad_url: String
+    var vo_url: String
+    var do_url: String
+    var di_url: String
     var state: String
     var description: String
     var isFavorite: Bool
@@ -21,7 +24,9 @@ struct Landmark: Hashable, Codable, Identifiable {
     //matching names of some of the keys in the json file
     // in a json file, the keys are enclosed in double quotes, key n value seperated by a colon symbol
     // two key-valye pairs seperated by a comma
-
+    
+    
+    
     var category: Category
     enum Category: String, CaseIterable, Codable {
         case catndog = "Dogs and Cats"
@@ -45,5 +50,6 @@ struct Landmark: Hashable, Codable, Identifiable {
     struct Coordinates: Hashable, Codable {
         var latitude: Double
         var longitude: Double
+        
     }
 }
