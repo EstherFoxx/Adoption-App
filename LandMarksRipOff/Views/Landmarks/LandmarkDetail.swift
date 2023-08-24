@@ -18,32 +18,34 @@ struct LandmarkDetail: View {
     
     var landmark: Landmark //import the file to read values
     //changed text to be dynamic, reading values from jison file
-
+    
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
         //compute the index of the input landmark by comparing it with the model data
     }
-
+    
     var body: some View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
-
+            
             CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
-
+            
             VStack(alignment: .leading) {
                 HStack {
                     Text(landmark.name)
                         .font(.title)
+                        .padding()
                     FavouriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                     //landmarkIndex: with the modelData object to ensure that the button updates the isFavorite property of the landmark stored in the model object
                     //Embed the landmark’s name in an HStack with a new FavoriteButton
                     //provide a binding to the isFavorite property with the dollar sign ($)
+                        
                     Spacer()
-                    VStack{
+                        Spacer()
                         Image("direction")
                             .resizable()
                             .frame(width: 40, height: 40)
@@ -54,76 +56,85 @@ struct LandmarkDetail: View {
                             }
                             .fullScreenCover(isPresented: $showSafari, content: {
                                 SFSafariViewWrapper(url: URL(string: landmark.di_url)!)
+                                    
                             })
-                        Text("Directions")
-
-                    }}
-
-                HStack {
-                    Spacer()
-                    Text(landmark.state)
+                            .padding()
                 }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-
+                
                 Divider()
-
-                Text("About \(landmark.name)")
-                    .font(.title2)
-                Text(landmark.description)
                 
-                Button {
-                    if let url = URL(string: landmark.ad_url) {
-                                openURL(url)
-                            }
-                        } label: {
-                            Label("View animals for Adoption", systemImage: "paperplane")
-                        }
+                    Text("About \(landmark.name)")
+                        .font(.title2)
                         .padding()
-                        .background(Color(red: 255, green: 0, blue: 0))
-                        .foregroundStyle(.white)
-                        .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
-                Button {
-                    if let url = URL(string: landmark.vo_url) {
-                                openURL(url)
-                            }
-                        } label: {
-                            Label("Be a Volunteer", systemImage: "hand.raised.fingers.spread.fill")
-                        }
-                        .padding()
-                        .background(Color(red: 255, green: 0, blue: 0))
-                        .foregroundStyle(.white)
-                        .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
-                Button {
-                    if let url = URL(string: landmark.vo_url) {
-                                openURL(url)
-                            }
-                        }
-            label: {
-                            Label("Make a Donation", systemImage: "heart.fill")
-                        }
-            .padding()
-            .background(Color(red: 255, green: 0, blue: 0))
-            .foregroundStyle(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+                    Text(landmark.description)
+                    .padding()
                 
-                        .onTapGesture{
-                            showSafari.toggle()
+                VStack{
+                    Text(landmark.adInfo)
+                    Button {
+                        if let url = URL(string: landmark.ad_url) {
+                            openURL(url)
                         }
-                        .fullScreenCover(isPresented: $showSafari, content: {
-                            SFSafariViewWrapper(url: URL(string: landmark.ad_url)!)
-                                
-                        })
-                                
+                    } label: {
+                        Label("View animals for Adoption", systemImage: "paperplane")
+                    }
+                    .padding()
+                    .background(Color(red: 255, green: 0, blue: 0))
+                    .foregroundStyle(.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+                    
+                    Text(landmark.voInfo)
+                    Button {
+                        if let url = URL(string: landmark.vo_url) {
+                            openURL(url)
+                        }
+                    } label: {
+                        Label("Be a Volunteer", systemImage: "hand.raised.fingers.spread.fill")
+                    }
+                    .padding()
+                    .background(Color(red: 255, green: 0, blue: 0))
+                    .foregroundStyle(.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+                    
+                    Text(landmark.doInfo)
+                    Button {
+                        if let url = URL(string: landmark.do_url) {
+                            openURL(url)
+                        }
+                    }
+                label: {
+                    Label("Make a Donation", systemImage: "heart.fill")
+                }
+                .padding()
+                .background(Color(red: 255, green: 0, blue: 0))
+                .foregroundStyle(.white)
+                .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+                    
+                .onTapGesture{
+                    showSafari.toggle()
+                }
+                .fullScreenCover(isPresented: $showSafari, content: {
+                    SFSafariViewWrapper(url: URL(string: landmark.ad_url)!)
+                })
+                }
+                .padding()
                 
-                
-                
+                VStack{
+                 Text("Contact Information")
+                        .font(.title)
+                        .foregroundColor(.white)
+                        .background(.gray)
+                        .ignoresSafeArea()
+                    
+                }
             }
-            .padding()
+            .navigationTitle(landmark.name)
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .navigationTitle(landmark.name)
-        .navigationBarTitleDisplayMode(.inline)
+        
+        
     }
+    
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
