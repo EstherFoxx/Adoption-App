@@ -79,7 +79,7 @@ struct LandmarkDetail: View {
                         Label("View animals for Adoption", systemImage: "paperplane")
                     }
                     .padding()
-                    .background(Color(red: 255, green: 0, blue: 0))
+                    .background(Color(red: 255, green: 0, blue: 85))
                     .foregroundStyle(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
                     
@@ -92,8 +92,8 @@ struct LandmarkDetail: View {
                         Label("Be a Volunteer", systemImage: "hand.raised.fingers.spread.fill")
                     }
                     .padding()
-                    .background(Color(red: 255, green: 0, blue: 0))
-                    .foregroundStyle(.white)
+                    .background(Color(red: 255, green: 69, blue: 0))
+                    .foregroundStyle(.orange)
                     .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
                     
                     Text(landmark.doInfo)
@@ -106,8 +106,8 @@ struct LandmarkDetail: View {
                     Label("Make a Donation", systemImage: "heart.fill")
                 }
                 .padding()
-                .background(Color(red: 255, green: 0, blue: 0))
-                .foregroundStyle(.white)
+                .background(Color(red: 0, green: 255, blue: 255))
+                .foregroundStyle(.pink)
                 .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
                     
                 .onTapGesture{

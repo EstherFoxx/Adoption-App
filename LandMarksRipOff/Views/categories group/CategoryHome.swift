@@ -14,7 +14,7 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView{
         List {
-            modelData.features[0].image
+            modelData.features[7].image
                 .resizable()
                 .scaledToFill()
                 .frame(height: 200)

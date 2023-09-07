@@ -21,7 +21,7 @@ struct LandmarkList: View {
         NavigationView {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
+                    Text("Favourites only")
                 }
 
                 ForEach(filteredLandmarks) { landmark in
@@ -35,7 +35,7 @@ struct LandmarkList: View {
                     }
                 }
             }
-            .navigationTitle("Dog Shelters")
+            .navigationTitle("My Favourites")
         }
     }
 }

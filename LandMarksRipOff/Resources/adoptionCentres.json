@@ -29,7 +29,7 @@
         "id": 1002,
         "isFeatured": true,
         "isFavorite": false,
-        "doInfo":"Contributions: Any contribution or offers of the following items would be extremely appreciated: /n- blankets/n- towels/n- newspapers/n- small cardboard boxes, shoe box or slightly bigger as the cats like to snuggle in them/n- plastic bags that are used as poo bags/n- animal bathing products/n- flea and tick treatments, especially 'Frontline' Spray - must be new/sealed/n- cat toys - especially scratching posts or catnip mats/n- cat / dog treats (non-milk-biscuits type, e.g. Fish 4 Dogs Tiddler Treats)/n- cat / dog food (wet, dry or kibbles)/n- dog leashes (thick, long)/n- unwanted pet carriers / leads / harnesses",
+        "doInfo":"Contributions: Any contribution or offers of the following items would be extremely appreciated: \n- blankets\n- towels\n- newspapers\n- small cardboard boxes, shoe box or slightly bigger as the cats like to snuggle in them\n- plastic bags that are used as poo bags\n- animal bathing products\n- flea and tick treatments, especially 'Frontline' Spray - must be new/sealed\n- cat toys - especially scratching posts or catnip mats\n- cat / dog treats (non-milk-biscuits type, e.g. Fish 4 Dogs Tiddler Treats)\n- cat / dog food (wet, dry or kibbles)\n- dog leashes (thick, long)\n- unwanted pet carriers / leads / harnesses",
         "adInfo":"Check out the animals for adoption here",
         "voInfo":"The shelter is currently recruiting regular and committed weekend volunteers. Please visit this link for more details:",
         "ad_url": "https://www.facebook.com/Mdmwongsshelterandfriends/",
@@ -167,13 +167,14 @@
         "ad_url": "https://www.hamstersociety.sg/adoptiongallery",
         "vo_url":"https://www.hamstersociety.sg/join-us",
         "do_url":"https://www.hamstersociety.sg/donatenow",
-        "di_url":"https://www.hamstersociety.sg/faq",
+        "di_url":"https://www.hamstersociety.sg/adoptiongallery",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
         },
         "description": "Advocating humane hamster pet care through education and outreach. \n We are a non-profit, volunteer-run organisation dedicated to the promotion of humane care of pet hamsters. We want to address the neglect, abuse and abandonment of one of the more neglected pet animals in Singapore.",
-        "imageName": "hamSoc"},
+        "imageName": "hamSoc"
+    },
     {
         "name": "Animal Lovers League",
         "category": "Dogs and Cats",
@@ -183,17 +184,17 @@
         "isFeatured": true,
         "isFavorite": false,
         "ad_url": "https://www.animalloversleague.com/adopt",
-        "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
-        "vo_url":"",
-        "do_url":"",
-        "di_url":"",
+        "doInfo":"Animal Lovers League is a registered charity that runs the largest “NO KILL” shelter in Singapore.\nOver 500 abandoned, traumatised, abused and rescued doggies and kitties call the shelter their home.\nWe need your help to keep ALL running.\nWalk with us. Feel with us. Support us.\nPlease donate to the care of our doggies and kitties today.\nOn behalf of all our dogs and cats, we thank you for your support. ",
+        "adInfo":"Check out our adoption process here. \nGet a chance to interact with our furry kids,one-on-one, to find your perfect match!\nAll adoption visits are by appointment after our procedural screening. No walk-ins are allowed. We seek your understanding and co-operation with this. Thank you.",
+        "voInfo":"At ALL, volunteering is no glamorous task. \n We are always in need of volunteers who are able to commit regularly on a long term basis, especially on weekdays.\nThe work load includes;\nCleaning of shelter grounds \nMixing of food \nShowering and walking the dogs\nFixing up the facilities\nAll volunteers must be 18 and above.\nFor the weekend programme, all first-timers are required to attend four orientation sessions, held over Saturdays and Sundays.\nFor the weekday programme, all first-timers are required to attend four orientation sessions which will be held on Tuesdays and Thursdays.\nIf you are keen to join us as a volunteer, kindly complete the application form linked below. Please do not email your volunteer applications to us. ",
+        "vo_url":"https://www.animalloversleague.com/volunteer",
+        "do_url":"https://www.animalloversleague.com/donate",
+        "di_url":"https://www.google.com/maps/dir//59+Sungei+Tengah+Rd,+Block+Q+01-29+Animal+Lovers+League+Singapore,+Singapore+699014/@1.3816475,103.7233917,17z/data=!4m17!1m7!3m6!1s0x31da3deea001e033:0x2a9c9447bd645637!2sAnimal+Lovers+League+Singapore!8m2!3d1.3820873!4d103.7247543!16s%2Fg%2F11ddxq2kbd!4m8!1m0!1m5!1m1!1s0x31da3deea001e033:0x2a9c9447bd645637!2m2!1d103.7247543!2d1.3820873!3e3?entry=ttu",
         "coordinates": {
-            "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "longitude": 103.72478112407009,
+            "latitude": 1.3822213717731588
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "description": "Their forlorn and despondent state became our inspiration to better their lives. Our rescued animals, over 500 cats and dogs, became our charges to stay. Animal Lovers League, currently a registered no-kill shelter, became official in 2002 to legitimately garner sufficient support in our quest to control the stray population by sterilisation and not annihilation.\nAs one of the largest and longest serving animal welfare group in Singapore, ALL constantly needs the support of the public to help keep the charity running and continue caring for the animals. Some of the ways members of the public can help include, giving monetary contributions and monthly pledges, donating food for the cats and dogs and taking care of the animals.\nEveryday, we hear pleas to save or rescue a life. We however, persist in rehoming and sheltering all those who seek refuge with us though the journey is a challenging and onerous one. We advocate adoption over buying.\nPlease stay with Animal Lovers League, walk with us, feel with us and continue to support so that we can continue helping our shelter creatures as well as our over 500 stray dogs and cats. These are daunting numbers, but we continue to strive for the sake of our animals, giving each and every one of them a voice.",
         "imageName": "ALL"
     },
     {
@@ -204,18 +205,18 @@
         "id": 1010,
         "isFeatured": true,
         "isFavorite": false,
-        "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
+        "doInfo":"HOW YOUR DONATIONS CAN HELP\nYour kind Donation will help support its stay at a Shelter, keep it happy and healthy until we find its Forever Home.\nThere are our most important daily needs for rescuing the helpless and homeless animals of Singapore.\nEveryday, we need to find funds to cover these basic needs.  Any help is vital to help these animals survive and find their own home.",
+        "adInfo":"Adoption\nThese are some of the wonderful animals we have available for adoption. Sponsorship\nIf you would like to sponsor any of these animals while they are waiting to be adopted, please click on dog's image",
+        "voInfo":"Volunteering for CAS\nLooking to make a difference? Come offer us a helping hand at CAS! \nWe are entirely run by volunteers...so help is always much appreciated. Check out the details about volunteering here.",
         "ad_url": "https://www.causesforanimals.com/dogs-for-adoption.html",
-        "vo_url":"",
-        "do_url":"",
-        "di_url":"",
+        "vo_url":"https://www.causesforanimals.com/volunteering.html",
+        "do_url":"https://www.causesforanimals.com/donations--support.html",
+        "di_url":"https://www.google.com/maps/dir//Sungei+Tengah+Road,+Causes+For+Animals,+The+Animal+Lodge,+Singapore/@1.3816475,103.7233917,17z/data=!3m1!5s0x31da0e21a48f8931:0xf26110c621e90a7b!4m9!4m8!1m0!1m5!1m1!1s0x31da1a0e4d4cffd1:0x8488a062bc731f5!2m2!1d103.7255819!2d1.3812996!3e3?entry=ttu",
         "coordinates": {
-            "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "longitude": 103.72618298282056,
+            "latitude": 1.3848175430083185
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "description": "Helping The Helpless.....Loving The Unloved\nCauses for Animals Singapore is a one-stop non-profit for everything a local shelter or animal welfare organisation could need.",
         "imageName": "CAS"
     },{
         "name": "Chained Dog Awareness Singapore",
@@ -226,18 +227,18 @@
         "isFeatured": true,
         "isFavorite": false,
         "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
+        "adInfo":"We are ready for a new home!",
+        "voInfo":"Are you interested in making a difference for dogs in need? Fill up the form below.",
         "ad_url": "https://chaineddogawareness.sg/adoption/",
-        "vo_url":"",
-        "do_url":"",
+        "vo_url":"https://chaineddogawareness.sg/getting-involved/#volunteer",
+        "do_url":"https://chaineddogawareness.sg/adoption/",
         "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
             "latitude": 1.3074011279348838
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
-        "imageName": "CDA"
+        "description": "In 2015, Chained Dog Awareness Singapore was started. The non-profit organisation was founded to raise awareness of the plight of the many dogs chained across Singapore. We believe in upholding the Five Domains of Animal Welfare, a new model proposed by Professor David Mellor and Dr Cam Reid in 1994, as a means of systematically identifying and grading the severity of different forms of welfare compromise by reformulating the Five Freedoms as ‘Five Domains’ of nutrition, environment, health, behaviour and mental state.\nChaining dogs is contrary to these Five Domains and is one of the most inhumane punishments that a social animal like a dog can endure. Dogs chained and caged for prolonged periods of time are denied the opportunity to engage in everyday activities that promote physical and emotional health. These dogs will eventually suffer from being isolated, consistently alone, intense boredom, frustration, depression and sadness. An otherwise friendly and docile dog, when kept continuously chained or intensively confined in any way, becomes neurotic, unhappy, anxious and often aggressive.\nWe believe that man's best friend should not be permanently chained by their owners. Every year we advocate for 30-40 chained dogs, some rescued with AVS or other animal rescue organizations, while others surrendered by their owners.",
+        "imageName": "CDAsg"
     },
     {
         "name": "Hope Dog Rescue",
@@ -248,17 +249,17 @@
         "isFeatured": true,
         "isFavorite": false,
         "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
+        "adInfo":"Whoever said money can't buy happiness has never paid an adoption fee!\nThinking of getting a dog? Ever considered adopting and rescuing a dog from the streets? Our rescued dogs are waiting to be brought home by a loving family.\nPlease fill up online adoption form  if you wish to adopt.",
+        "voInfo":"We are recruiting animal rescuers.\nLoving and caring for animals goes without saying; but what will make you stand out from the pack?\nIf you don’t mind getting dirty with dog vomit, blood or mud.\nIf you have a dog pee/poo on you and can laugh about it.\nIf you are willing to commit time to helping out and you don’t mind cancelling dinners with friends or skipping other social outings as rescue work is last minute and ad-hoc.\nIf you can kiss and hug a stray, without worrying about getting dirty or contracting ringworms.\nIf you can rescue an injured animal, feel sad about it but bounce back stronger and more willing to help.\nIf you can get down on your knees and do manual labour – bathing dogs, walking / training them, cooking and feeding them, cleaning up after them and more.\nIf you can put your ego aside and work with different volunteers for the betterment of the dogs.\nThen write in to us. We WANT you! Email to fiona@hopedogrescue.org",
         "ad_url": "http://hopedogrescue.blogspot.com/p/adoption.html",
-        "vo_url":"",
-        "do_url":"",
+        "vo_url":"http://hopedogrescue.blogspot.com/2013/02/volunteering-with-hope.html",
+        "do_url":"http://hopedogrescue.blogspot.com/p/help-our-dogs.html",
         "di_url":"",
         "coordinates": {
             "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "latitude":1.3074011279348838
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "description": "Where hope grows, miracles blossom.",
         "imageName": "Hope"
     },
     {
@@ -269,40 +270,40 @@
         "id": 1013,
         "isFeatured": true,
         "isFavorite": false,
-        "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
-        "ad_url": "https://www.muttsnmittens.com/adoption/",
-        "vo_url":"",
-        "do_url":"",
-        "di_url":"",
+        "doInfo":"By sponsoring, you'll change the lives of many others in need\nYour monthly gift will help fund our rescue dogs and cats, food, and veterinary care for them.\nYou will receive updates on the rescue animal(s) that you are sponsoring.\nYour gift will mean everything to all of them.",
+        "adInfo":"Give our rescued animals a shot at being your loving family member\nMake appointment with us to meet your potential furkid, spend time and find out all about them in several visits.\nIf you would like to adopt, arrange with our staff for home visit then a home trial for a month or longer depending on the progress.\nIf the adoption is successful, we will need you to sign our adoption papers and there will be an adoption fee of $250 per furkid to cover the cost of microchipping, vaccinations, sterilisation and administration.",
+        "voInfo":"We have about 100 rescued dogs and cats with no owners or sponsors under our roof. Our volunteers help us rehabilitate, play and love these precious lives until they find their own furever homes.\nOur community is small, but strong. We engage with multiple special needs organisations, and hope to spread compassion and love for our furry friends to whoever we come in contact with. We always welcome an extra pair of helping hands so if you would like to make a difference, please get in touch! Follow us on our Facebook to be notified of our next recruitment drive.\nWe look forward to having you in our community! 😀",
+        "ad_url": "https://www.muttsnmittens.com/pet_categories/adopt/#listing-section",
+        "vo_url":"https://www.muttsnmittens.com/volunteer/",
+        "do_url":"https://www.muttsnmittens.com/pet_categories/sponsor/#listing-section",
+        "di_url":"https://www.google.com/maps/search/mutts+%26+mittens/@1.3547266,103.7611283,10z/data=!3m1!4b1?entry=ttu",
         "coordinates": {
-            "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "longitude": 103.854934972869,
+            "latitude":1.3074011279348838
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "description": "Mutts & Mittens is a boarding facility, but that’s not all. Our proceeds go towards our passion – animal welfare work. Our rescued dogs and cats have so much love to share! Find out about our programmes below to meet and give them a furever home! 😀 ",
         "imageName": "MuMi"
     },
     {
-        "name": "Oasis Second Chance Animal Shelter",
+        "name": "OSCAS",
         "category": "Dogs",
         "city": "Singapore",
         "state": "Singapore",
         "id": 1014,
         "isFeatured": true,
         "isFavorite": false,
-        "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
+        "doInfo":"Help us make a difference to the rescued dogs at our shelter! On behalf of our furry residents, thank you so much for your generosity.",
+        "adInfo":"We have many wonderful dogs that are looking for their forever homes. Please scroll through our gallery below to view their profile, and click the button beneath it to contact us for further information about our adoption process and be sent an application form to complete. Thank you for choosing to adopt!",
+        "voInfo":"Volunteer Opportunities\nOur shelter is managed almost entirely by volunteers, from rehabilitating, bathing and walking the dogs, to updating our website and social media platforms. Volunteers form an integral part of the shelter and we welcome you to join our family!\nAnimal Welfare\nAll of our dogs are strays rescued from the streets or from being culled. Most of them had little or no human interaction before coming into our shelter, and can be pretty shy. We need volunteers to rehabilitate, walk and bathe them, as well as monitor their well-being and health condition. Caring for a hundred dogs also means making sure we have enough food and treats for the dogs, their living conditions are clean and safe, and required necessities are adequately stocked.\nEducation & Outreach\nOne of our goals is to raise awareness and understanding of the plight of stray dogs in Singapore. Help us produce materials that we can use in sharing with schools, as well as in coordinating special projects in collaboration with other organizations such as corporations, old age homes, children’s homes, etc.",
         "ad_url": "https://www.oscas.sg/adoption-gallery",
-        "vo_url":"",
-        "do_url":"",
-        "di_url":"",
+        "vo_url":"https://www.oscas.sg/help-volunteer",
+        "do_url":"https://www.oscas.sg/help-donate",
+        "di_url":"https://www.google.com/maps/dir//59+Sungei+Tengah+Rd,+Block+R,+%2301+OSCAS+Singapore,+33+The+Animal+Lodge,+Singapore+699014/@1.3817537,103.7221107,17z/data=!3m1!5s0x31da0e21a48f8931:0xf26110c621e90a7b!4m17!1m7!3m6!1s0x31da1127fb72c119:0x61d37cd3ee30572!2sOSCAS+Singapore!8m2!3d1.3817537!4d103.7246856!16s%2Fg%2F11gl1q875z!4m8!1m0!1m5!1m1!1s0x31da1127fb72c119:0x61d37cd3ee30572!2m2!1d103.7246856!2d1.3817537!3e3?entry=ttu",
         "coordinates": {
-            "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "longitude": 103.7247,
+            "latitude": 1.38194
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "description": "ADOPT A DOG SAVE A LIFE",
         "imageName": "OSCAS"
     },
     {
@@ -313,41 +314,41 @@
         "id": 1015,
         "isFeatured": true,
         "isFavorite": false,
-        "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
+        "doInfo":"Help us to Help Them!\nWe are an animal welfare group that is funded entirely on public donations. Our funds go into the rescuing, fostering and medical fees of the rescues. This includes medication, vaccination, sterilisation and food.\nNo amount is too small, help us to help these deserving animals.\nWe also accept donations in a form of items.",
+        "adInfo":"Purely Adoptions is an animal welfare group and all adoption fees collected are channelled back into helping more rescues. The funds are used for sterilisation, medical fees, rescue and fostering.\nWe are also blessed with sponsors to enable us to provide each adopter with a starter pack to start you off with products and services we love and trust.",
+        "voInfo":"Be our Volunteer\nAs a non-profit, we rely heavily on individuals to help do the things we do at Purely Adoptions. We are looking for volunteers from all walks of life.\nWe need your expertise to help Purely Adoptions organize activities and events; as well as rehome abandoned pets and stray animals.",
         "ad_url": "https://www.purelyadoptions.com/adoptdog",
-        "vo_url":"",
-        "do_url":"",
+        "vo_url":"https://www.purelyadoptions.com/volunteer",
+        "do_url":"https://www.purelyadoptions.com/donateorsponsor",
         "di_url":"",
         "coordinates": {
-            "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "longitude": 103.7320683,
+            "latitude":1.3809775
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
-        "imageName": "PuAd"
+        "description": "Help Us to Help More Animals\nPurely Adoptions Facebook was created in 2009 with the objective of sharing people’s post about puppies, stray animals and home pets up for adoptions. Over time, more and more like-minded people came onboard and we grew into a community but our mission still remains the same as a decade ago which is to:\nTo raise awareness of the abandoned pets in Singapore, by providing a channel where family who wants to give up their pets. This same channel is also an avenue for family who wants to adopt one.\nTo reduce to number of stray and abandoned pets in Singapore by rehoming, fostering, adopting and whole process of integration of these animals.\nEmbark on this journey with us. Help save more animals",
+        "imageName": "PuAD"
     },
     {
-        "name": "Society for the Prevention of Cruelty to Animals",
+        "name": "SPCA",
         "category": "Dogs and Cats",
         "city": "Singapore",
         "state": "Singapore",
         "id": 1016,
         "isFeatured": true,
         "isFavorite": false,
-        "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
+        "doInfo":"Donation Details\nEvery year, SPCA Singapore needs at least $3 million to run all its services — 24/7 emergency rescues, cruelty & welfare investigations, Singapore’s only non-profit community animal clinic, sterilisation and adoption programmes, an animal shelter, education outreach, and more.\nEvery dollar you donate will help us change lives. Thank you.",
+        "adInfo":"Adoption Gallery\nThank you for your interest in adopting an animal! All visits are now by appointment only and slots will only be released 7 days beforehand. Book an appointment at bit.ly/SPCABooking.",
+        "voInfo":"Volunteer with us:",
         "ad_url": "https://spca.org.sg/services/adoption/",
-        "vo_url":"",
-        "do_url":"",
-        "di_url":"",
+        "vo_url":"https://spca.org.sg/help-us/#jump",
+        "do_url":"https://spca.org.sg/donate/",
+        "di_url":"https://www.google.com/maps/dir//50+Sungei+Tengah+Rd,+Society+for+the+Prevention+of+Cruelty+to+Animals+(SPCA),+Singapore+699012/@1.3804734,103.7321005,17z/data=!4m17!1m7!3m6!1s0x31da1797148efe85:0x198673c4e23c5926!2sSociety+for+the+Prevention+of+Cruelty+to+Animals+(SPCA)!8m2!3d1.3804734!4d103.7321005!16s%2Fg%2F1thwxzfg!4m8!1m0!1m5!1m1!1s0x31da1797148efe85:0x198673c4e23c5926!2m2!1d103.7321005!2d1.3804734!3e3?entry=ttu",
         "coordinates": {
-            "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "longitude": 103.7320683,
+            "latitude": 1.3809775
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
-        "imageName": "SPCA"
+        "description": "//WELCOME TO SPCA//\nBe the kindest soul to adopt the needful souls\n//WELCOME TO SPCA//\nPromoting kindness and preventing cruelty",
+        "imageName": "spca"
     },{
         "name": "Voices for Animals",
         "category": "Dogs and Cats",
@@ -356,18 +357,18 @@
         "id": 1017,
         "isFeatured": true,
         "isFavorite": false,
-        "doInfo":"",
-        "adInfo":"",
-        "voInfo":"",
-        "ad_url": "https://www.facebook.com/VFASIN/",
-        "vo_url":"",
-        "do_url":"",
-        "di_url":"",
+        "doInfo":"Your Donation Makes a Difference",
+        "adInfo":"Check out the available animals for adoption here",
+        "voInfo":"Join us to volunteer today",
+        "ad_url":"https://www.facebook.com/VFASIN/",
+        "vo_url":"https://www.giving.sg/web/vfa",
+        "do_url":"https://give.asia/campaign/voices_for_animals_1?#/",
+        "di_url":"https://www.google.com/maps/dir//Hexacube@Changi,+Changi+Rd,+%2303-09+Animal+Voice,+160,+419728/@1.3553978,103.6787162,11z/data=!3m1!5s0x31da180565c3e4a3:0x8191455d3c3ebdd8!4m18!1m8!3m7!1s0x31da18056f52d7dd:0x2adaff46f957b40b!2sAnimal+Voice!8m2!3d.3167412!4d103.9024778!15sChJ2b2ljZXMgZm9yIGFuaW1hbHOSAQ93ZWxsbmVzc19jZW50ZXLgAQA!16s%2Fg%2F11f3q_jg0l!4m8!1m0!1m5!1m1!1s0x31da18056f52d7dd:0x2adaff46f957b40b!2m2!1d103.9024778!2d1.3167412!3e3?entry=ttu",
         "coordinates": {
-            "longitude": 103.8549349728695,
-            "latitude": 1.3074011279348838
+            "longitude": 103.90226134,
+            "latitude": 1.3303270310
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis",
+        "description": "About Us\nVoices For Animals (VFA) is a registered non-profit society/charity founded in 2013 by a group of animal lovers dedicated to helping retired breeding dogs have a second chance in life by rehabilitating and rehoming them. Their rehoming efforts have also expanded to helping other small animals (cats, rabbits etc) from time to time.\nVoices For Animals is run by volunteers and the fundings for shelter operations come mainly from monthly adoption drives and contributions from well-wishers. A huge amount of funds goes to the rescued animals' medical bills. To date, they have rehomed over 1,500 animals and are currently providing shelter for over 250 animals.",
         "imageName": "VFA"
     }
     ]
