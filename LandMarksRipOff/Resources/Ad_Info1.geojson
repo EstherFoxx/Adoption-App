@@ -1,0 +1,14 @@
+[
+    {
+        "name": "MultiPolygon",
+        "id": 1001,
+        "imageName": "ALL",
+        "isCompleted": true
+    },
+    {
+        "name": "MultiPolygon",
+        "id": 1002,
+        "imageName": "ALL",
+        "isCompleted": true
+    }
+]

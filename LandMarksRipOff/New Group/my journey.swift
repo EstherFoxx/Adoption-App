@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct my_journey: View {
+    @EnvironmentObject var modelData: ModelData
+    
+    
     var body: some View {
         NavigationView{
         VStack{
@@ -27,7 +30,7 @@ struct my_journey: View {
                 
                 VStack{
                     NavigationLink {// destination view to navigation to
-                    Adoption_Checklist_Details()
+                        Adoption_Checklist_Details()
                 } label: {
                     CircleImage_S(image: Image("Checklist"))
                 }

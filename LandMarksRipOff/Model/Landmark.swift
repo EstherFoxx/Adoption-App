@@ -24,6 +24,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var doInfo: String
     var adInfo: String
     var voInfo: String
+    
     //define the var types
     //matching names of some of the keys in the json file
     // in a json file, the keys are enclosed in double quotes, key n value seperated by a colon symbol
